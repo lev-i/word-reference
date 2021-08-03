@@ -1,2 +1,2 @@
-# dictionary
-A basic dictionary tool searching a JSON for an input
+# Dictionary
+Python program to take a JSON file and search that file for a given input.
