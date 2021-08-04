@@ -17,11 +17,11 @@ def translate(word):
        return data[word]
 # search for similar word if input word is not found
     elif len(gcm(word, data.keys())) > 0:
-		yn = input("Did you mean %s instead? Enter Y if yes, or N if no"% gcm(word, data.keys())[0])
-		if (yn.lower()=="y"):
-			return data[gcm(word, data.keys())[0]]
-		else :
-			return "No entry found."
+        yn = input("Did you mean %s instead? Enter Y if yes, or N if no"% gcm(word, data.keys())[0])
+        if (yn.lower() == "y"):
+            return data[gcm(word, data.keys())[0]]
+        else:
+            return "No entry found."
     else:
        return "No entry found."     
 
