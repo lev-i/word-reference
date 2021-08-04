@@ -1,8 +1,8 @@
-# loads dictionary
+# allows loading json files
 import json
 # functionality for similar words
 from difflib import get_close_matches as gcm
-
+# loads dictionary
 data = json.load(open("dictionary.json"))
 
 # processes input word
